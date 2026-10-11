@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-06T16:34:19 IST" name="PIM_Automation_Test" finished-at="2026-10-06T16:39:41 IST" duration-ms="321433">
+    <groups>
+    </groups>
+    <test started-at="2026-10-06T16:34:19 IST" name="Test" finished-at="2026-10-06T16:39:41 IST" duration-ms="321433">
+      <class name="com.coforge.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.LoginTest@6eb2384f]" started-at="2026-10-06T16:39:03 IST" name="setup" finished-at="2026-10-06T16:39:08 IST" duration-ms="4118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.coforge.tests.LoginTest@6eb2384f]" started-at="2026-10-06T16:39:08 IST" name="beforeMethod" finished-at="2026-10-06T16:39:12 IST" duration-ms="4790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="orangeHRMlogintest(java.lang.String,java.lang.String)[pri:0, instance:com.coforge.tests.LoginTest@6eb2384f]" started-at="2026-10-06T16:39:12 IST" name="orangeHRMlogintest" data-provider="logindata" finished-at="2026-10-06T16:39:19 IST" duration-ms="6111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMlogintest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.coforge.tests.LoginTest@6eb2384f]" started-at="2026-10-06T16:39:19 IST" name="afterMethod" finished-at="2026-10-06T16:39:20 IST" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.LoginTest@6eb2384f]" started-at="2026-10-06T16:39:20 IST" name="teardown" finished-at="2026-10-06T16:39:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.LoginTest@6eb2384f]" started-at="2026-10-06T16:39:20 IST" name="setup" finished-at="2026-10-06T16:39:24 IST" duration-ms="4595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.coforge.tests.LoginTest@6eb2384f]" started-at="2026-10-06T16:39:24 IST" name="beforeMethod" finished-at="2026-10-06T16:39:31 IST" duration-ms="6918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="orangeHRMlogintest(java.lang.String,java.lang.String)[pri:0, instance:com.coforge.tests.LoginTest@6eb2384f]" started-at="2026-10-06T16:39:31 IST" name="orangeHRMlogintest" data-provider="logindata" finished-at="2026-10-06T16:39:40 IST" duration-ms="9132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMlogintest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.coforge.tests.LoginTest@6eb2384f]" started-at="2026-10-06T16:39:41 IST" name="afterMethod" finished-at="2026-10-06T16:39:41 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.LoginTest@6eb2384f]" started-at="2026-10-06T16:39:41 IST" name="teardown" finished-at="2026-10-06T16:39:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.coforge.tests.LoginTest -->
+      <class name="com.coforge.tests.EmployeeSearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:35:23 IST" name="setup" finished-at="2026-10-06T16:35:26 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:35:26 IST" name="setupTest" finished-at="2026-10-06T16:35:31 IST" duration-ms="5034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchByEmployeeNameFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:35:31 IST" name="testSearchByEmployeeNameFromExcel" description="Verify directory search by employee name using Excel data" data-provider="SearchData" finished-at="2026-10-06T16:35:43 IST" duration-ms="11557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aarav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByEmployeeNameFromExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:35:43 IST" name="teardown" finished-at="2026-10-06T16:35:43 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:35:43 IST" name="setup" finished-at="2026-10-06T16:35:46 IST" duration-ms="3236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:35:46 IST" name="setupTest" finished-at="2026-10-06T16:35:51 IST" duration-ms="4455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchByEmployeeNameFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:35:51 IST" name="testSearchByEmployeeNameFromExcel" description="Verify directory search by employee name using Excel data" data-provider="SearchData" finished-at="2026-10-06T16:36:02 IST" duration-ms="11556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9013]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByEmployeeNameFromExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:02 IST" name="teardown" finished-at="2026-10-06T16:36:03 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:03 IST" name="setup" finished-at="2026-10-06T16:36:06 IST" duration-ms="3257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:06 IST" name="setupTest" finished-at="2026-10-06T16:36:10 IST" duration-ms="4328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchByEmployeeNameFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:10 IST" name="testSearchByEmployeeNameFromExcel" description="Verify directory search by employee name using Excel data" data-provider="SearchData" finished-at="2026-10-06T16:36:22 IST" duration-ms="11651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mehta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9014]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByEmployeeNameFromExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:22 IST" name="teardown" finished-at="2026-10-06T16:36:22 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:22 IST" name="setup" finished-at="2026-10-06T16:36:26 IST" duration-ms="3524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:26 IST" name="setupTest" finished-at="2026-10-06T16:36:30 IST" duration-ms="4661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchByEmployeeNameFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:30 IST" name="testSearchByEmployeeNameFromExcel" description="Verify directory search by employee name using Excel data" data-provider="SearchData" finished-at="2026-10-06T16:36:42 IST" duration-ms="11541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kapoor]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9015]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByEmployeeNameFromExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:42 IST" name="teardown" finished-at="2026-10-06T16:36:42 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:42 IST" name="setup" finished-at="2026-10-06T16:36:45 IST" duration-ms="3316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:45 IST" name="setupTest" finished-at="2026-10-06T16:36:50 IST" duration-ms="4080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchByEmployeeNameFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:36:50 IST" name="testSearchByEmployeeNameFromExcel" description="Verify directory search by employee name using Excel data" data-provider="SearchData" finished-at="2026-10-06T16:37:01 IST" duration-ms="11530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9016]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByEmployeeNameFromExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:01 IST" name="teardown" finished-at="2026-10-06T16:37:01 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:01 IST" name="setup" finished-at="2026-10-06T16:37:05 IST" duration-ms="3559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:05 IST" name="setupTest" finished-at="2026-10-06T16:37:10 IST" duration-ms="4751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchByEmployeeId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:10 IST" name="testSearchByEmployeeId" description="Verify directory search by employee ID" data-provider="SearchData" finished-at="2026-10-06T16:37:20 IST" duration-ms="10523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aarav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByEmployeeId -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:20 IST" name="teardown" finished-at="2026-10-06T16:37:20 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:20 IST" name="setup" finished-at="2026-10-06T16:37:24 IST" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:24 IST" name="setupTest" finished-at="2026-10-06T16:37:28 IST" duration-ms="4828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchByEmployeeId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:28 IST" name="testSearchByEmployeeId" description="Verify directory search by employee ID" data-provider="SearchData" finished-at="2026-10-06T16:37:39 IST" duration-ms="10510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9013]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByEmployeeId -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:39 IST" name="teardown" finished-at="2026-10-06T16:37:39 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:39 IST" name="setup" finished-at="2026-10-06T16:37:42 IST" duration-ms="3201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:42 IST" name="setupTest" finished-at="2026-10-06T16:37:47 IST" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchByEmployeeId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:47 IST" name="testSearchByEmployeeId" description="Verify directory search by employee ID" data-provider="SearchData" finished-at="2026-10-06T16:37:57 IST" duration-ms="10614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mehta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9014]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByEmployeeId -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:57 IST" name="teardown" finished-at="2026-10-06T16:37:57 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:37:57 IST" name="setup" finished-at="2026-10-06T16:38:01 IST" duration-ms="3379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:38:01 IST" name="setupTest" finished-at="2026-10-06T16:38:05 IST" duration-ms="4225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchByEmployeeId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:38:05 IST" name="testSearchByEmployeeId" description="Verify directory search by employee ID" data-provider="SearchData" finished-at="2026-10-06T16:38:16 IST" duration-ms="10514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kapoor]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9015]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByEmployeeId -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:38:16 IST" name="teardown" finished-at="2026-10-06T16:38:16 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:38:16 IST" name="setup" finished-at="2026-10-06T16:38:20 IST" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:38:20 IST" name="setupTest" finished-at="2026-10-06T16:38:25 IST" duration-ms="4445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchByEmployeeId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:38:25 IST" name="testSearchByEmployeeId" description="Verify directory search by employee ID" data-provider="SearchData" finished-at="2026-10-06T16:38:35 IST" duration-ms="10509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9016]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByEmployeeId -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:38:35 IST" name="teardown" finished-at="2026-10-06T16:38:36 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:38:36 IST" name="setup" finished-at="2026-10-06T16:38:39 IST" duration-ms="3950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:38:39 IST" name="setupTest" finished-at="2026-10-06T16:38:51 IST" duration-ms="11529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchNoMatchingRecord()[pri:3, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:38:51 IST" name="testSearchNoMatchingRecord" description="Verify directory search with no matching record" finished-at="2026-10-06T16:39:03 IST" duration-ms="12198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchNoMatchingRecord -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.EmployeeSearchTest@740d2e78]" started-at="2026-10-06T16:39:03 IST" name="teardown" finished-at="2026-10-06T16:39:03 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.coforge.tests.EmployeeSearchTest -->
+      <class name="com.coforge.tests.AddEmployeeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:20 IST" name="setup" finished-at="2026-10-06T16:34:24 IST" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:24 IST" name="setupTest" finished-at="2026-10-06T16:34:28 IST" duration-ms="4004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddNewEmployeeFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:28 IST" name="testAddNewEmployeeFromExcel" description="Verify adding new employees from Excel sheet data" data-provider="AddEmployeeData" finished-at="2026-10-06T16:34:34 IST" duration-ms="5352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aarav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9012]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewEmployeeFromExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:34 IST" name="teardown" finished-at="2026-10-06T16:34:34 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:34 IST" name="setup" finished-at="2026-10-06T16:34:38 IST" duration-ms="3255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:38 IST" name="setupTest" finished-at="2026-10-06T16:34:42 IST" duration-ms="4272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddNewEmployeeFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:42 IST" name="testAddNewEmployeeFromExcel" description="Verify adding new employees from Excel sheet data" data-provider="AddEmployeeData" finished-at="2026-10-06T16:34:44 IST" duration-ms="2048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9013]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewEmployeeFromExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:44 IST" name="teardown" finished-at="2026-10-06T16:34:44 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:44 IST" name="setup" finished-at="2026-10-06T16:34:47 IST" duration-ms="3090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:47 IST" name="setupTest" finished-at="2026-10-06T16:34:52 IST" duration-ms="4334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddNewEmployeeFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:52 IST" name="testAddNewEmployeeFromExcel" description="Verify adding new employees from Excel sheet data" data-provider="AddEmployeeData" finished-at="2026-10-06T16:34:54 IST" duration-ms="2044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mehta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9014]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewEmployeeFromExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:54 IST" name="teardown" finished-at="2026-10-06T16:34:54 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:54 IST" name="setup" finished-at="2026-10-06T16:34:58 IST" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:34:58 IST" name="setupTest" finished-at="2026-10-06T16:35:02 IST" duration-ms="4252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddNewEmployeeFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:35:02 IST" name="testAddNewEmployeeFromExcel" description="Verify adding new employees from Excel sheet data" data-provider="AddEmployeeData" finished-at="2026-10-06T16:35:04 IST" duration-ms="1964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kapoor]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9015]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewEmployeeFromExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:35:04 IST" name="teardown" finished-at="2026-10-06T16:35:04 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:35:04 IST" name="setup" finished-at="2026-10-06T16:35:08 IST" duration-ms="3371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:35:08 IST" name="setupTest" finished-at="2026-10-06T16:35:12 IST" duration-ms="4054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddNewEmployeeFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:35:12 IST" name="testAddNewEmployeeFromExcel" description="Verify adding new employees from Excel sheet data" data-provider="AddEmployeeData" finished-at="2026-10-06T16:35:14 IST" duration-ms="1981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9016]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewEmployeeFromExcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:35:14 IST" name="teardown" finished-at="2026-10-06T16:35:14 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:35:14 IST" name="setup" finished-at="2026-10-06T16:35:17 IST" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:35:17 IST" name="setupTest" finished-at="2026-10-06T16:35:21 IST" duration-ms="3964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddNewEmployeeMandatoryValidation()[pri:2, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:35:21 IST" name="testAddNewEmployeeMandatoryValidation" description="Verify employee creation is blocked when mandatory fields are left blank" finished-at="2026-10-06T16:35:23 IST" duration-ms="1664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewEmployeeMandatoryValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.coforge.tests.AddEmployeeTest@13ad5cd3]" started-at="2026-10-06T16:35:23 IST" name="teardown" finished-at="2026-10-06T16:35:23 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.coforge.tests.AddEmployeeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- PIM_Automation_Test -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PIM Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.coforge.listener.ExtentTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.coforge.tests.EmployeeSearchTest">
+        <methods>
+          <include name="testSearchByEmployeeId"/>
+          <include name="testSearchByEmployeeNameFromExcel"/>
+          <include name="testSearchNoMatchingRecord"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.coforge.tests.EmployeeSearchTest -->
+      <class name="com.coforge.tests.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="orangeHRMlogintest"/>
+        </methods>
+      </class> <!-- com.coforge.tests.LoginTest -->
+      <class name="com.coforge.tests.AddEmployeeTest">
+        <methods>
+          <include name="testAddNewEmployeeFromExcel" invocation-numbers="0 1 2 3 4"/>
+          <include name="testAddNewEmployeeMandatoryValidation"/>
+        </methods>
+      </class> <!-- com.coforge.tests.AddEmployeeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [PIM Automation Suite] -->

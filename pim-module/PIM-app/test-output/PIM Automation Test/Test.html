@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 06 15:56:28 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>242 seconds (242668 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.coforge.tests.AddEmployeeTest.testAddNewEmployeeFromExcel()'><b>testAddNewEmployeeFromExcel</b><br>Test class: com.coforge.tests.AddEmployeeTest<br>Test method: Verify adding new employees from Excel sheet data<br>Parameters: Vikram, Singh, Gupta, 9016</td>
+<td></td>
+<td>2</td>
+<td>com.coforge.tests.AddEmployeeTest@73194df</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchByEmployeeNameFromExcel()'><b>testSearchByEmployeeNameFromExcel</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search by employee name using Excel data<br>Parameters: Aarav, Kumar, Sharma, 9012</td>
+<td></td>
+<td>0</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+<tr>
+<td title='com.coforge.tests.AddEmployeeTest.testAddNewEmployeeMandatoryValidation()'><b>testAddNewEmployeeMandatoryValidation</b><br>Test class: com.coforge.tests.AddEmployeeTest<br>Test method: Verify employee creation is blocked when mandatory fields are left blank</td>
+<td></td>
+<td>1</td>
+<td>com.coforge.tests.AddEmployeeTest@73194df</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchByEmployeeNameFromExcel()'><b>testSearchByEmployeeNameFromExcel</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search by employee name using Excel data<br>Parameters: Priya, , Verma, 9013</td>
+<td></td>
+<td>0</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+<tr>
+<td title='com.coforge.tests.AddEmployeeTest.testAddNewEmployeeFromExcel()'><b>testAddNewEmployeeFromExcel</b><br>Test class: com.coforge.tests.AddEmployeeTest<br>Test method: Verify adding new employees from Excel sheet data<br>Parameters: Neha, , Kapoor, 9015</td>
+<td></td>
+<td>1</td>
+<td>com.coforge.tests.AddEmployeeTest@73194df</td></tr>
+<tr>
+<td title='com.coforge.tests.AddEmployeeTest.testAddNewEmployeeFromExcel()'><b>testAddNewEmployeeFromExcel</b><br>Test class: com.coforge.tests.AddEmployeeTest<br>Test method: Verify adding new employees from Excel sheet data<br>Parameters: Rahul, Dev, Mehta, 9014</td>
+<td></td>
+<td>0</td>
+<td>com.coforge.tests.AddEmployeeTest@73194df</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchByEmployeeNameFromExcel()'><b>testSearchByEmployeeNameFromExcel</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search by employee name using Excel data<br>Parameters: Vikram, Singh, Gupta, 9016</td>
+<td></td>
+<td>2</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchByEmployeeNameFromExcel()'><b>testSearchByEmployeeNameFromExcel</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search by employee name using Excel data<br>Parameters: Neha, , Kapoor, 9015</td>
+<td></td>
+<td>3</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchByEmployeeId()'><b>testSearchByEmployeeId</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search by employee ID<br>Parameters: Neha, , Kapoor, 9015</td>
+<td></td>
+<td>10</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+<tr>
+<td title='com.coforge.tests.LoginTest.orangeHRMlogintest()'><b>orangeHRMlogintest</b><br>Test class: com.coforge.tests.LoginTest<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>2</td>
+<td>com.coforge.tests.LoginTest@3fed2870</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchByEmployeeId()'><b>testSearchByEmployeeId</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search by employee ID<br>Parameters: Priya, , Verma, 9013</td>
+<td></td>
+<td>10</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchByEmployeeId()'><b>testSearchByEmployeeId</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search by employee ID<br>Parameters: Vikram, Singh, Gupta, 9016</td>
+<td></td>
+<td>0</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchByEmployeeNameFromExcel()'><b>testSearchByEmployeeNameFromExcel</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search by employee name using Excel data<br>Parameters: Rahul, Dev, Mehta, 9014</td>
+<td></td>
+<td>1</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchByEmployeeId()'><b>testSearchByEmployeeId</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search by employee ID<br>Parameters: Aarav, Kumar, Sharma, 9012</td>
+<td></td>
+<td>3</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+<tr>
+<td title='com.coforge.tests.LoginTest.orangeHRMlogintest()'><b>orangeHRMlogintest</b><br>Test class: com.coforge.tests.LoginTest<br>Parameters: Admin, admin123</td>
+<td></td>
+<td>2</td>
+<td>com.coforge.tests.LoginTest@3fed2870</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchByEmployeeId()'><b>testSearchByEmployeeId</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search by employee ID<br>Parameters: Rahul, Dev, Mehta, 9014</td>
+<td></td>
+<td>0</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+<tr>
+<td title='com.coforge.tests.AddEmployeeTest.testAddNewEmployeeFromExcel()'><b>testAddNewEmployeeFromExcel</b><br>Test class: com.coforge.tests.AddEmployeeTest<br>Test method: Verify adding new employees from Excel sheet data<br>Parameters: Priya, , Verma, 9013</td>
+<td></td>
+<td>0</td>
+<td>com.coforge.tests.AddEmployeeTest@73194df</td></tr>
+<tr>
+<td title='com.coforge.tests.AddEmployeeTest.testAddNewEmployeeFromExcel()'><b>testAddNewEmployeeFromExcel</b><br>Test class: com.coforge.tests.AddEmployeeTest<br>Test method: Verify adding new employees from Excel sheet data<br>Parameters: Aarav, Kumar, Sharma, 9012</td>
+<td></td>
+<td>0</td>
+<td>com.coforge.tests.AddEmployeeTest@73194df</td></tr>
+<tr>
+<td title='com.coforge.tests.EmployeeSearchTest.testSearchNoMatchingRecord()'><b>testSearchNoMatchingRecord</b><br>Test class: com.coforge.tests.EmployeeSearchTest<br>Test method: Verify directory search with no matching record</td>
+<td></td>
+<td>0</td>
+<td>com.coforge.tests.EmployeeSearchTest@6eb2384f</td></tr>
+</table><p>
+</body>
+</html>
