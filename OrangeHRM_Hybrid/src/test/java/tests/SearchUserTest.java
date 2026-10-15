@@ -11,35 +11,49 @@ import pages.UserManagementPage;
 
 public class SearchUserTest extends BaseTest {
 
-    @Test
-    public void verifySearchUserByUsername() {
-
-        // 1. Login to OrangeHRM
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.login("Admin", "admin123");
-
-        // 2. Open Admin / User Management
-        AdminPage adminPage = new AdminPage(driver);
-        adminPage.openUserManagement();
-
-        // 3. Create the User Management page object
-        UserManagementPage userManagementPage =
-                new UserManagementPage(driver);
-
-        // 4. Search for an existing username
-        String expectedUsername = "noob";
-
-        userManagementPage.enterSearchUsername(expectedUsername);
-        userManagementPage.clickSearch();
-
-        // 5. Verify the search result
-        Assert.assertTrue(
-                userManagementPage.isUsernamePresentInResults(
-                        expectedUsername
-                ),
-                "Expected username was not found in search results: "
-                        + expectedUsername
-        );
-    
-    }
+	@Test
+	public void verifySearchExistingUser() {
+	 
+	    LoginPage loginPage = new LoginPage(driver);
+	    loginPage.login("Admin", "admin123");
+	 
+	    AdminPage adminPage = new AdminPage(driver);
+	    adminPage.openUserManagement();
+	 
+	    UserManagementPage userManagementPage =
+	            new UserManagementPage(driver);
+	 
+	    String username = "Admin";
+	 
+	    userManagementPage.enterSearchUsername(username);
+	    userManagementPage.clickSearch();
+	 
+	    Assert.assertTrue(
+	            userManagementPage.isUsernamePresentInResults(username),
+	            "Existing username was not found: " + username
+	    );
+	}
+	 
+	@Test
+	public void verifySearchNonExistingUser() {
+	 
+	    LoginPage loginPage = new LoginPage(driver);
+	    loginPage.login("Admin", "admin123");
+	 
+	    AdminPage adminPage = new AdminPage(driver);
+	    adminPage.openUserManagement();
+	 
+	    UserManagementPage userManagementPage =
+	            new UserManagementPage(driver);
+	 
+	    String username = "noob";
+	 
+	    userManagementPage.enterSearchUsername(username);
+	    userManagementPage.clickSearch();
+	 
+	    Assert.assertFalse(
+	            userManagementPage.isUsernamePresentInResults(username),
+	            "Unexpected username found: " + username
+	    );
+	}
 }
