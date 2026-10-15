@@ -12,6 +12,7 @@
     <test name="OrangeHRM Test">
 
         <classes>
+        	<class name="tests.UserManagementTest"/>
             <class name="tests.SearchUserTest"/>
         </classes>
 
